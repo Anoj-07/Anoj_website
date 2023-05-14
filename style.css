@@ -853,6 +853,17 @@ line-height: 20px;
 
 
 @media (max-width: 600px){
+    .middle{
+         width: 100%;
+    /* height: 25%; */
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* align-items: center; */
+     justify-content: center; 
+}
+        
 
     
 
@@ -902,6 +913,8 @@ line-height: 20px;
 }
 
 @media (max-width: 400px){
+    .middle{
+        
 
     
     .service-coloumn{
