@@ -195,7 +195,7 @@ html{
 }
 
 .background {
-    background: rgba(0, 0, 0, 0.5) url('BACKGROUN.jpg');
+    background-color:white;
     background-size: cover;
     background-blend-mode: darken;
     
@@ -226,7 +226,7 @@ html{
 }
 
 .fa-brands,
-.fa-solid ,.fa fa-linked-square{
+.fa-solid {
     color: white;
     padding: 30px 0;
     font-size: 25px;
