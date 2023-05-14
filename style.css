@@ -226,7 +226,7 @@ html{
 }
 
 .fa-brands,
-.fa-solid ,.fa fa-linked-square{
+.fa-solid {
     color: white;
     padding: 30px 0;
     font-size: 25px;
@@ -965,7 +965,7 @@ line-height: 20px;
 
 }
 
-@media (max-width: 600px){
+@media (max-width: 300px){
     .contact-form form input, form textarea {
         width: 85%;
     }
