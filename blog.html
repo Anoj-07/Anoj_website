@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anoj Rawal's Blog - Insights on Django, Backend Development, and Security">
+    <meta name="keywords" content="Django blog, backend development, API security, PostgreSQL">
+    <meta name="author" content="Anoj Rawal">
+    <title>Blog - Anoj Rawal</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="index.html" class="logo">Anoj Rawal</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="blog.html" class="nav-link active">Blog</a>
+            </div>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span id="themeIcon">🌙</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Blog Header -->
+            <section class="blog-header">
+                <h1 class="page-title">Blog</h1>
+                <p class="page-subtitle">Thoughts on backend development, security, and software engineering</p>
+            </section>
+
+            <!-- Blog Posts Grid -->
+            <section class="blog-grid">
+                <!-- Blog Post 1 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-category">Django</div>
+                        <div class="placeholder-image">🔐</div>
+                    </div>
+                    <div class="blog-content">
+                        <time class="blog-date">February 10, 2024</time>
+                        <h2 class="blog-title">Implementing JWT Authentication in Django REST Framework</h2>
+                        <p class="blog-excerpt">A comprehensive guide to securing your Django REST APIs with JSON Web Tokens. Learn about token generation, refresh mechanisms, and best practices.</p>
+                        <div class="blog-tags">
+                            <span class="blog-tag">Django</span>
+                            <span class="blog-tag">JWT</span>
+                            <span class="blog-tag">Security</span>
+                        </div>
+                        <a href="#" class="blog-read-more">
+                            Read More
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-category">PostgreSQL</div>
+                        <div class="placeholder-image">🗄️</div>
+                    </div>
+                    <div class="blog-content">
+                        <time class="blog-date">February 5, 2024</time>
+                        <h2 class="blog-title">Database Query Optimization Techniques</h2>
+                        <p class="blog-excerpt">Discover advanced PostgreSQL optimization strategies that helped me reduce query response times by 60%. Includes indexing strategies and query planning.</p>
+                        <div class="blog-tags">
+                            <span class="blog-tag">PostgreSQL</span>
+                            <span class="blog-tag">Performance</span>
+                            <span class="blog-tag">SQL</span>
+                        </div>
+                        <a href="#" class="blog-read-more">
+                            Read More
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-category">API Security</div>
+                        <div class="placeholder-image">🛡️</div>
+                    </div>
+                    <div class="blog-content">
+                        <time class="blog-date">January 28, 2024</time>
+                        <h2 class="blog-title">Building Secure REST APIs: A Complete Guide</h2>
+                        <p class="blog-excerpt">Essential security measures every backend developer should implement, from CORS policies to rate limiting and input validation.</p>
+                        <div class="blog-tags">
+                            <span class="blog-tag">API</span>
+                            <span class="blog-tag">Security</span>
+                            <span class="blog-tag">Best Practices</span>
+                        </div>
+                        <a href="#" class="blog-read-more">
+                            Read More
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 4 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-category">Python</div>
+                        <div class="placeholder-image">🐍</div>
+                    </div>
+                    <div class="blog-content">
+                        <time class="blog-date">January 20, 2024</time>
+                        <h2 class="blog-title">Understanding Django ORM: Beyond the Basics</h2>
+                        <p class="blog-excerpt">Deep dive into Django ORM's advanced features including select_related, prefetch_related, and custom QuerySets for optimal database access.</p>
+                        <div class="blog-tags">
+                            <span class="blog-tag">Django</span>
+                            <span class="blog-tag">ORM</span>
+                            <span class="blog-tag">Python</span>
+                        </div>
+                        <a href="#" class="blog-read-more">
+                            Read More
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 5 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-category">DevOps</div>
+                        <div class="placeholder-image">🐳</div>
+                    </div>
+                    <div class="blog-content">
+                        <time class="blog-date">January 12, 2024</time>
+                        <h2 class="blog-title">Dockerizing Django Applications</h2>
+                        <p class="blog-excerpt">Step-by-step guide to containerizing your Django projects with Docker and Docker Compose, including production-ready configurations.</p>
+                        <div class="blog-tags">
+                            <span class="blog-tag">Docker</span>
+                            <span class="blog-tag">Django</span>
+                            <span class="blog-tag">DevOps</span>
+                        </div>
+                        <a href="#" class="blog-read-more">
+                            Read More
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 6 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-category">Authentication</div>
+                        <div class="placeholder-image">⚙️</div>
+                    </div>
+                    <div class="blog-content">
+                        <time class="blog-date">January 5, 2024</time>
+                        <h2 class="blog-title">OAuth2 vs JWT: Choosing the Right Authentication</h2>
+                        <p class="blog-excerpt">Comparing OAuth2 and JWT authentication mechanisms, their use cases, and when to use each approach in your applications.</p>
+                        <div class="blog-tags">
+                            <span class="blog-tag">OAuth2</span>
+                            <span class="blog-tag">JWT</span>
+                            <span class="blog-tag">Authentication</span>
+                        </div>
+                        <a href="#" class="blog-read-more">
+                            Read More
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Newsletter Section -->
+            <section class="newsletter-section">
+                <div class="newsletter-card">
+                    <h2>Stay Updated</h2>
+                    <p>Get notified when I publish new articles about backend development and security.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required aria-label="Email address">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Anoj Rawal • anojrawal66@gmail.com</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
